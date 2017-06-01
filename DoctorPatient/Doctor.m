@@ -10,4 +10,14 @@
 
 @implementation Doctor
 
+- (instancetype)initWithName:(NSString *)docName spec:(NSString *)docSpec
+{
+    if (self = [super init])
+    {
+        _doctorName = docName;
+        _doctorSpecialization = docSpec;
+    }
+    return self;
+}
+
 @end

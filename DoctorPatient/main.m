@@ -12,8 +12,9 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        
+//        Doctor *mainDoctor = [[Doctor alloc] init];
+        
     }
     return 0;
 }

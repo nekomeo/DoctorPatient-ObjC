@@ -8,6 +8,14 @@
 
 #import <Foundation/Foundation.h>
 
+@protocol PatientDelegate <NSObject>
+@end
+
 @interface Patient : NSObject
+
+@property (nonatomic, weak) NSString *patientName;
+@property (nonatomic) NSInteger patientAge;
+
+- (instancetype)initWithPName:(NSString *)pName age:(NSInteger)pAge;
 
 @end
